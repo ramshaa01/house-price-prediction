@@ -1,0 +1,57 @@
+{
+    "dataset": "Ames Housing (Kaggle / OpenML benchmark)",
+    "records": 1456,
+    "features_used": [
+        "GrLivArea",
+        "Total_Living_Area",
+        "Total_Bathrooms",
+        "BedroomAbvGr",
+        "Property_Age",
+        "GarageCars",
+        "OverallQual",
+        "OverallCond",
+        "Has_Pool",
+        "Has_Garage",
+        "Is_Remodeled",
+        "Neighborhood"
+    ],
+    "best_model": "Ridge Regression",
+    "model_metrics": {
+        "Ridge Regression": {
+            "MAE": 16280.23,
+            "MSE": 523107460.09,
+            "RMSE": 22871.54,
+            "R2_Score": 0.9003,
+            "Adjusted_R2": 0.8863,
+            "CV_R2_Mean": 0.8918,
+            "CV_R2_Std": 0.0148
+        },
+        "Decision Tree": {
+            "MAE": 22916.82,
+            "MSE": 1052967278.88,
+            "RMSE": 32449.46,
+            "R2_Score": 0.7994,
+            "Adjusted_R2": 0.7711,
+            "CV_R2_Mean": 0.7834,
+            "CV_R2_Std": 0.0264
+        },
+        "Random Forest": {
+            "MAE": 17309.61,
+            "MSE": 644351881.7,
+            "RMSE": 25384.09,
+            "R2_Score": 0.8772,
+            "Adjusted_R2": 0.8599,
+            "CV_R2_Mean": 0.873,
+            "CV_R2_Std": 0.0269
+        },
+        "XGBoost": {
+            "MAE": 15999.01,
+            "MSE": 525280666.02,
+            "RMSE": 22919.0,
+            "R2_Score": 0.8999,
+            "Adjusted_R2": 0.8858,
+            "CV_R2_Mean": 0.8916,
+            "CV_R2_Std": 0.0265
+        }
+    }
+}

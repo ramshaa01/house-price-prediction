@@ -1,0 +1,87 @@
+/* Modern styling for House Price Prediction System */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header Banner */
+.main-header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    padding: 1.8rem;
+    border-radius: 12px;
+    color: white;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.main-header h1 {
+    color: white !important;
+    font-weight: 700;
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+.main-header p {
+    color: #e0e7ff;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-size: 1.05rem;
+}
+
+/* Prediction Result Card */
+.metric-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+    margin-bottom: 1.5rem;
+    border-top: 5px solid #2a5298;
+}
+
+.metric-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.metric-value {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0.4rem 0;
+}
+
+.metric-sub {
+    font-size: 0.95rem;
+    color: #3b82f6;
+    font-weight: 500;
+}
+
+/* Feature Insight Pill */
+.insight-box {
+    background-color: #f8fafc;
+    border-left: 4px solid #3b82f6;
+    padding: 1rem 1.2rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+/* Streamlit button enhancement */
+.stButton>button {
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.stButton>button:hover {
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+    transform: translateY(-1px);
+}

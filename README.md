@@ -8,7 +8,7 @@ The system automates residential property valuations using the Ames Housing benc
 
 ## 🌐 Live Demo
 Access the live interactive property valuation dashboard deployed on Streamlit Community Cloud:
-👉 **[Live Streamlit App (Placeholder Link - Deploying)](https://house-price-prediction.streamlit.app)**
+👉 **[Live Streamlit App](https://house-price-prediction-ami5hudzy5cov9xj97dknk.streamlit.app/)**
 
 ---
 
